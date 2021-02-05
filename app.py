@@ -46,7 +46,9 @@ def handle_message(event):
         r = '還沒'
     elif '訂位' in msg:
         r = '你想訂位,是嗎?' 
-    elif ['嗎', '?'] in msg:
+    elif '嗎' in msg:
+        r = '挖阿災'
+    elif '?' in msg:
         r = '挖阿災'
 
 
